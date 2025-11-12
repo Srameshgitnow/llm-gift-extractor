@@ -13,7 +13,7 @@ The model takes unstructured text and outputs a JSON object containing the follo
 I ordered a Teddy Bear as a birthday gift, and it will be delivered in 3 days for $25.
 
 ### Output:
-```json
+
 {
   "gift": "Teddy Bear",
   "delivery_days": 3,
