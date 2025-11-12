@@ -7,6 +7,8 @@ The model takes unstructured text and outputs a JSON object containing the follo
 - **delivery_days**
 - **price_value**
 
+-----------
+
 ## 🧩 Example
 
 ### Input:
@@ -19,6 +21,7 @@ I ordered a Teddy Bear as a birthday gift, and it will be delivered in 3 days fo
   "delivery_days": 3,
   "price_value": 25
 }
+------------------
 
 ⚙️ Notebook
 
@@ -27,6 +30,8 @@ The core logic is implemented in gift_extractor.ipynb.
 You can open it using:
 
 jupyter notebook gift_extractor.ipynb
+
+------------------
 
 🧰 Requirements
 
@@ -38,10 +43,17 @@ openai or transformers (depending on your model)
 
 pandas, json
 
+------------------
+
 🚀 Run Locally
+
 git clone https://github.com/Srameshgitnow/llm-gift-extractor.git
+
 cd llm-gift-extractor
+
 jupyter notebook gift_extractor.ipynb
+
+------------------
 
 📄 License
 
